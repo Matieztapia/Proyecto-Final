@@ -1,0 +1,17 @@
+.boton{
+    background-color: rgba(0, 0, 255, 0.678);
+    text-align: map-get($themes,centro);
+    color: rgb(255, 255, 255);
+    }
+    .boton--reset{
+    @extend.boton;
+    background-color: rgba(255, 0, 0, 0.562);
+    color: black;
+    }
+    @mixin texto {
+        color: maroon;
+        font-weight: 500;
+    }
+    .card-texto{
+        @include texto;
+    }
