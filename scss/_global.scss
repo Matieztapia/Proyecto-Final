@@ -1,15 +1,15 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    text-decoration: none;
-    text-align: center;
+    margin: map-get($estilos,marge);
+    padding: map-get($estilos,paddel);
+    box-sizing: map-get($estilos,boxshape);
+    text-decoration: map-get($estilos,decorations);
+    text-align: map-get($estilos,centro);
 }
 body {
     font-family: "Finlandica", sans-serif;
-    text-align: center;
+    text-align: map-get($estilos,centro);
     max-height: 100%;
-    background-color: ivory;
+    background-color:map-get($estilos,backcolor);
 
 }
 main{
