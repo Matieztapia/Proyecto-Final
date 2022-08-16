@@ -29,3 +29,10 @@ img {
     background-color: rgba(255, 0, 0, 0.562);
     color: black;
     }
+    @mixin texto {
+        color: maroon;
+        font-weight: 500;
+    }
+    .card-texto{
+        @include texto;
+    }

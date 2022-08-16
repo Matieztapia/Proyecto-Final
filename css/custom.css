@@ -10818,6 +10818,11 @@ img {
   color: black;
 }
 
+.card-texto {
+  color: maroon;
+  font-weight: 500;
+}
+
 .marcas__container {
   margin: 10px;
 }
