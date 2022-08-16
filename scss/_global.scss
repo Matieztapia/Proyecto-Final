@@ -1,15 +1,15 @@
 *{
-    margin: map-get($estilos,marge);
-    padding: map-get($estilos,paddel);
-    box-sizing: map-get($estilos,boxshape);
-    text-decoration: map-get($estilos,decorations);
-    text-align: map-get($estilos,centro);
+    margin: map-get($themes,marge);
+    padding: map-get($themes,paddel);
+    box-sizing: map-get($themes,boxshape);
+    text-decoration: map-get($themes,decorations);
+    text-align: map-get($themes,centro);
 }
 body {
     font-family: "Finlandica", sans-serif;
-    text-align: map-get($estilos,centro);
+    text-align: map-get($themes,centro);
     max-height: 100%;
-    background-color:map-get($estilos,backcolor);
+    background-color:map-get($themes,backcolor);
 
 }
 main{
@@ -18,3 +18,14 @@ main{
 img {
     max-width: 100%;
 }
+
+.boton{
+    background-color: White;
+    text-align: map-get($themes,centro);
+    color: black;
+    }
+    .boton--reset{
+    @extend.boton;
+    background-color: red;
+    color:White;
+    }

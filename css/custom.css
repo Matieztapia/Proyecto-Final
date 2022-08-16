@@ -10807,6 +10807,22 @@ img {
   max-width: 100%;
 }
 
+.boton, .boton—-mujer, .boton—-hombre {
+  background-color: White;
+  text-align: center;
+  color: black;
+}
+
+.boton—-hombre {
+  background-color: rgb(0, 225, 255);
+  color: White;
+}
+
+.boton—-mujer {
+  background-color: rgb(248, 150, 166);
+  color: White;
+}
+
 .marcas__container {
   margin: 10px;
 }
