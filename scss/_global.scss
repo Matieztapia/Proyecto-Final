@@ -20,12 +20,12 @@ img {
 }
 
 .boton{
-    background-color: White;
+    background-color: rgba(0, 0, 255, 0.678);
     text-align: map-get($themes,centro);
-    color: black;
+    color: rgb(255, 255, 255);
     }
     .boton--reset{
     @extend.boton;
-    background-color: red;
-    color:White;
+    background-color: rgba(255, 0, 0, 0.562);
+    color: black;
     }

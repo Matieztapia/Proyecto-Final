@@ -10807,20 +10807,15 @@ img {
   max-width: 100%;
 }
 
-.boton, .boton—-mujer, .boton—-hombre {
-  background-color: White;
+.boton, .boton--reset {
+  background-color: rgba(0, 0, 255, 0.678);
   text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.boton--reset {
+  background-color: rgba(255, 0, 0, 0.562);
   color: black;
-}
-
-.boton—-hombre {
-  background-color: rgb(0, 225, 255);
-  color: White;
-}
-
-.boton—-mujer {
-  background-color: rgb(248, 150, 166);
-  color: White;
 }
 
 .marcas__container {
