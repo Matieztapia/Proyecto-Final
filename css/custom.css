@@ -10758,5 +10758,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  font-family: "Finlandica", sans-serif;
+  text-align: center;
+  max-height: 100%;
+  background-color: ivory;
+}
+
+main {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.marcas__container {
+  margin: 10px;
+}
+
+.carousel-inner {
+  margin-bottom: 10px;
+}
+
+.form__style {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  padding: 5px;
+}
 
 /*# sourceMappingURL=custom.css.map */
