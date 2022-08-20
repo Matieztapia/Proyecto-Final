@@ -10,11 +10,14 @@ body {
     text-align: map-get($themes,centro);
     max-height: 100%;
     background-color:map-get($themes,backcolor);
-
+    font-size: 2rem;
 }
 main{
     max-width: 100%;
 }
 img {
     max-width: 100%;
+}
+html{
+    font-size: 62.5%;
 }
