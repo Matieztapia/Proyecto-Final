@@ -1,7 +1,5 @@
 @import "variables";
-@import "mixins";
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "mixins";
 @import "global";
-@import "marcas";
-@import "contacto";
-@import "catalogo";
+@import "pages";

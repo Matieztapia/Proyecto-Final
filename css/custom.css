@@ -1,20 +1,4 @@
 @charset "UTF-8";
-.boton, .boton--reset {
-  background-color: rgba(0, 0, 255, 0.678);
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.boton--reset {
-  background-color: rgba(255, 0, 0, 0.562);
-  color: black;
-}
-
-.card-texto {
-  color: rgba(128, 0, 0, 0.808);
-  font-weight: 500;
-}
-
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10774,6 +10758,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.boton, .boton--reset {
+  background-color: rgba(0, 0, 255, 0.678);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.boton--reset {
+  background-color: rgba(255, 0, 0, 0.562);
+  color: black;
+}
+
+.card-texto {
+  color: rgba(128, 0, 0, 0.808);
+  font-weight: 500;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -10787,7 +10787,7 @@ body {
   text-align: center;
   max-height: 100%;
   background-color: ivory;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 main {
@@ -10798,8 +10798,21 @@ img {
   max-width: 100%;
 }
 
-html {
-  font-size: 62.5%;
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.sub__form {
+  margin: 10px;
+  color: rgb(110, 16, 110);
+}
+
+.form__style {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .marcas__container {
@@ -10808,18 +10821,6 @@ html {
 
 .carousel-inner {
   margin-bottom: 10px;
-}
-
-.form__style {
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.card-img-top {
-  width: 100%;
-  object-fit: cover;
-  padding: 5px;
 }
 
 /*# sourceMappingURL=custom.css.map */
