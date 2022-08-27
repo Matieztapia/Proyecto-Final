@@ -1,17 +1,20 @@
-.boton{
-    background-color: rgba(0, 0, 255, 0.678);
-    text-align: map-get($themes,centro);
+.boton {
+    background-color: #4cbb17;
+    text-align: map-get($themes, centro);
     color: rgb(255, 255, 255);
-    }
-    .boton--reset{
+}
+
+.boton--reset {
     @extend.boton;
     background-color: #A61717;
     color: black;
-    }
-    @mixin texto {
-        color: rgba(128, 0, 0, 0.808);
-        font-weight: 500;
-    }
-    .card-texto{
-        @include texto;
-    }
+}
+
+@mixin texto {
+    color: rgba(128, 0, 0, 0.808);
+    font-weight: 500;
+}
+
+.card-texto {
+    @include texto;
+}
